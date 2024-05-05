@@ -1,0 +1,24 @@
+# domain: kf-ant.ru # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+# url: https://kf-ant.ru
+
+collections:
+  products:
+    output: true
+
+include: ["pages"]
+exclude: []
+livereload: true
+open_url: true
+
+defaults:
+  - scope:
+      type: "products"
+    values:
+      layout: "product"
+
+  - scope:
+      path: "pages"
+      type: "pages"
+    values:
+      layout: "default"
+      permalink: /:basename:output_ext
