@@ -1,5 +1,6 @@
-# domain: kf-ant.ru # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
-# url: https://kf-ant.ru
+domain: kf-ant.ru # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://kf-ant.ru
+baseurl: ""
 
 repository: kf-ant-site/site
 
