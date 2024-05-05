@@ -6,7 +6,7 @@ collections:
     output: true
 
 include: ["pages"]
-exclude: []
+exclude: ["vendor"]
 livereload: true
 open_url: true
 
