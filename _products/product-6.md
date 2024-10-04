@@ -8,7 +8,7 @@ tumbnail: /assets/images/products/tumb-product-6.png # Изображение д
 
 #------ Отдельная страница товара - 1 экран ------
 title_section: Вафельные рожки с маршмеллоу # Название продукта на странице
-subtitle: Желейные палочки «Nicitimo» виноград - вишня # Подзаголовок
+subtitle: Желейные палочки «Nikitimo» виноград - вишня # Подзаголовок
 describe: Отличное лакомство с натуральными ингредиентами для детей и взрослых. # Описание под заголовком
 size_upakovki: 187x68x70 мм # Размер упаковки
 count_in: 15 шт # Кол-во в гофрокоробе
@@ -28,7 +28,7 @@ advantages:
 brands_products:
     - img: /assets/images/products/product-6/brands/item-1.png
       img_slider: /assets/images/products/product-6/for-slider/item-1.png
-      subtitle: Желейные палочки «Nicitimo» кола - бабл гам # Подзаголовок
+      subtitle: Желейные палочки «Nikitimo» кола - бабл гам # Подзаголовок
       describe: Отличное лакомство с натуральными ингредиентами для детей и взрослых. # Описание под заголовком
       size_upakovki: 187x68x70 мм # Размер упаковки
       count_in: 15 шт # Кол-во в гофрокоробе
@@ -37,7 +37,7 @@ brands_products:
       is_first_slide: true
     - img: /assets/images/products/product-6/brands/item-3.png
       img_slider: /assets/images/products/product-6/for-slider/item-3.png
-      subtitle: Желейные палочки «Nicitimo» апельсин - ананас # Подзаголовок
+      subtitle: Желейные палочки «Nikitimo» апельсин - ананас # Подзаголовок
       describe: Отличное лакомство с натуральными ингредиентами для детей и взрослых. # Описание под заголовком
       size_upakovki: 187x68x70 мм # Размер упаковки
       count_in: 15 шт # Кол-во в гофрокоробе
