@@ -12,7 +12,7 @@ subtitle: Пустые вафельные рожки разноцветные, 1
 describe: Вафельный рожок литой, под мороженое, зефир и тд, высота 105 мм, диаметр 47 мм. # Описание под заголовком
 size_upakovki: 143x55x187 мм # Размер упаковки
 count_in: 8 шт # Кол-во в гофрокоробе
-size_gofro: 395x240x150 мм # Размер гофрокороба
+size_gofro: 390х235х150 мм # Размер гофрокороба
 
 #------ Преимущества - 2 экран ------
 # Одна карточка состоит из двух полей - img и text. Оба поля нужно заполнять, чтобы они отобазились на странице
@@ -36,14 +36,14 @@ brands_products:
       describe: Вафельная крошка для посыпки в изготовлении кондитерских изделий.
       size_upakovki: 143x55x187 мм # Размер упаковки
       count_in: 8 шт # Кол-во в гофрокоробе
-      size_gofro: 395x240x150 мм # Размер гофрокороба
+      size_gofro: 390х235х150 мм # Размер гофрокороба
     - img: /assets/images/products/product-1/brands/item-2.png
       img_slider: /assets/images/products/product-1/for-slider/item-2.png
       subtitle: Пустые вафельные рожки, 18 шт
       describe: Вафельный рожок литой, под мороженое, зефир и тд, высота 105 мм, диаметр 47 мм.
       size_upakovki: 143x55x187 мм # Размер упаковки
       count_in: 8 шт # Кол-во в гофрокоробе
-      size_gofro: 395x240x150 мм # Размер гофрокороба
+      size_gofro: 390х235х150 мм # Размер гофрокороба
     - img: /assets/images/products/product-1/brands/item-3.png
       img_slider: /assets/images/products/product-1/for-slider/item-3.png
       img_slider: /assets/images/products/product-1/brands/product-3.png
