@@ -68,6 +68,4 @@ brands_products:
       size_upakovki: 187x137x35 мм # Размер упаковки
       count_in: 12 шт # Кол-во в гофрокоробе
       size_gofro: 390х235х150 мм # Размер гофрокороба
-    - img: /assets/images/products/product-2/brands/item-11.png
-      is_first_slide: true # это первый слайд в карусели
 ---
