@@ -8,7 +8,7 @@ tumbnail: /assets/images/products/tumb-product-2.png # Изображение д
 
 #------ Отдельная страница товара - 1 экран ------
 title_section: Кондитерские конструкторы # Название продукта на странице
-subtitle: Меренги привидения # Подзаголовок
+subtitle: Кукисы с дражe # Подзаголовок
 describe: Наборы для приготовления вкусных сладостей. Ваш ребенок будет в восторге от проведенного времени и полученных изделий. # Описание под заголовком
 size_upakovki: 187x137x35 мм # Размер упаковки
 count_in: 12 шт # Кол-во в гофрокоробе
@@ -26,20 +26,6 @@ advantages:
 
 #------ Продукция бренда - 3 экран ------
 brands_products:
-    - img: /assets/images/products/product-2/brands/item-1.png
-      img_slider: /assets/images/products/product-2/for-slider/item-1.png
-      subtitle: Вафельные рожки # Подзаголовок
-      describe: Наборы для приготовления вкусных сладостей. Ваш ребенок будет в восторге от проведенного времени и полученных изделий. # Описание под заголовком
-      size_upakovki: 187x137x35 мм # Размер упаковки
-      count_in: 12 шт # Кол-во в гофрокоробе
-      size_gofro: 390х235х150 мм # Размер гофрокороба
-    - img: /assets/images/products/product-2/brands/item-2.png
-      img_slider: /assets/images/products/product-2/for-slider/item-2.png
-      subtitle: Шоколадный пудинг # Подзаголовок
-      describe: Наборы для приготовления вкусных сладостей. Ваш ребенок будет в восторге от проведенного времени и полученных изделий. # Описание под заголовком
-      size_upakovki: 187x137x35 мм # Размер упаковки
-      count_in: 12 шт # Кол-во в гофрокоробе
-      size_gofro: 390х235х150 мм # Размер гофрокороба
     - img: /assets/images/products/product-2/brands/item-3.png
       img_slider: /assets/images/products/product-2/for-slider/item-3.png
       subtitle: Кукисы с драже # Подзаголовок
@@ -47,23 +33,9 @@ brands_products:
       size_upakovki: 187x137x35 мм # Размер упаковки
       count_in: 12 шт # Кол-во в гофрокоробе
       size_gofro: 390х235х150 мм # Размер гофрокороба
-    - img: /assets/images/products/product-2/brands/item-4.png
-      img_slider: /assets/images/products/product-2/for-slider/item-4.png
-      subtitle: Бананы в шоколаде # Подзаголовок
-      describe: Наборы для приготовления вкусных сладостей. Ваш ребенок будет в восторге от проведенного времени и полученных изделий. # Описание под заголовком
-      size_upakovki: 187x137x35 мм # Размер упаковки
-      count_in: 12 шт # Кол-во в гофрокоробе
-      size_gofro: 390х235х150 мм # Размер гофрокороба
     - img: /assets/images/products/product-2/brands/item-5.png
       img_slider: /assets/images/products/product-2/for-slider/item-5.png
       subtitle: Шоколадные грибочки # Подзаголовок
-      describe: Наборы для приготовления вкусных сладостей. Ваш ребенок будет в восторге от проведенного времени и полученных изделий. # Описание под заголовком
-      size_upakovki: 187x137x35 мм # Размер упаковки
-      count_in: 12 шт # Кол-во в гофрокоробе
-      size_gofro: 390х235х150 мм # Размер гофрокороба
-    - img: /assets/images/products/product-2/brands/item-6.png
-      img_slider: /assets/images/products/product-2/for-slider/item-6.png
-      subtitle: Имбирные печенья # Подзаголовок
       describe: Наборы для приготовления вкусных сладостей. Ваш ребенок будет в восторге от проведенного времени и полученных изделий. # Описание под заголовком
       size_upakovki: 187x137x35 мм # Размер упаковки
       count_in: 12 шт # Кол-во в гофрокоробе
@@ -98,11 +70,4 @@ brands_products:
       size_gofro: 390х235х150 мм # Размер гофрокороба
     - img: /assets/images/products/product-2/brands/item-11.png
       is_first_slide: true # это первый слайд в карусели
-    - img: /assets/images/products/product-2/brands/item-12.png
-      img_slider: /assets/images/products/product-2/for-slider/item-12.png
-      subtitle: Мини мороженое # Подзаголовок
-      describe: Наборы для приготовления вкусных сладостей. Ваш ребенок будет в восторге от проведенного времени и полученных изделий. # Описание под заголовком
-      size_upakovki: 187x137x35 мм # Размер упаковки
-      count_in: 12 шт # Кол-во в гофрокоробе
-      size_gofro: 390х235х150 мм # Размер гофрокороба
 ---
