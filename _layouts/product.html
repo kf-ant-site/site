@@ -142,7 +142,7 @@ layout: default
 </section>
 <section class="section--half-height section--accent">
     <div class="container">
-        <h2 class="h1 section__title text-center-sm">Продукция бренда</h2>
+        {% if page.many_brands == true %}<h2 class="h1 section__title text-center-sm">Продукция брендов</h2>{% else %}<h2 class="h1 section__title text-center-sm">Продукция бренда</h2>{% endif %}
         <div class="swiper swiper__brands-product">
             <div class="swiper-wrapper">
                 {% for item in page.brands_products %}{% if item.img %}
