@@ -121,6 +121,7 @@ layout: default
                             {% if page.uniclass == 'product-7' %}<img src="/assets/images/products/product-7/brands/item-2.png" alt="decor" class="section-product__img__product section-product__img__product--1">{% endif %}
                             {% if page.uniclass == 'product-8' %}<img src="/assets/images/products/product-8/brands/item-1.png" alt="decor" class="section-product__img__product section-product__img__product--1">{% endif %}
                             {% if page.uniclass == 'product-9' %}<img src="/assets/images/products/product-9/brands/item-1.png" alt="decor" class="section-product__img__product section-product__img__product--1">{% endif %}
+                            {% if page.uniclass == 'product-9=10' %}<img src="/assets/images/products/product-10/brands/item-1.png" alt="decor" class="section-product__img__product section-product__img__product--1">{% endif %}
                         </div>
                         {% for item in page.brands_products %}{% assign exclude = item.exlude_slider | default: false %} {% assign is_first = item.is_first_slide | default: false  %}
                         {% if item.img and exclude == false and is_first == false %}
