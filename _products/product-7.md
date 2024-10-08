@@ -17,12 +17,12 @@ size_gofro: 390х235х150 мм # Размер гофрокороба
 #------ Преимущества - 2 экран ------
 # Одна карточка состоит из двух полей - img и text. Оба поля нужно заполнять, чтобы они отобазились на странице
 advantages:
-    - img: /assets/images/icons/party.svg
-      text: Идеально подойдет для детского праздника
-    - img: /assets/images/icons/nach.svg
+    - img: /assets/images/icons/fasovka.svg
+      text: Разные фасовки
+    - img: /assets/images/icons/cheap.svg
+      text: Дешевле аналогов
+    - img: /assets/images/icons/vkus-1.svg
       text: Вкусная начинка
-    - img: /assets/images/icons/upack.svg
-      text: Практичная упаковка
 
 #------ Продукция бренда - 3 экран ------
 # Обязательные параметры: img - картинка которая будет отображаться
