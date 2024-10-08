@@ -455,9 +455,9 @@
     }
 
     .section-product__img__product--1 {
-        top: (-1800%/743);
-        left: (13800%/810);
-        width: (58900%/810);
+        top: 4%;
+        left: 33%;
+        width: 41%;
         transform: scale(0.95) translate3d(0, 7%, 0);
     }
     .section-product__img__product--2 {
@@ -535,6 +535,9 @@
         width: (108300%/810);
         animation: section-cloud-1 30s linear 0s infinite alternate both;
     }
+}
+.section-brands-product-3 .swiper-slide img {
+    max-width: 60%;
 }
 .js-init-animation .section-product.section-product-4 .section-product__img__product--3 {
     transform: scale(1) translate3d(0, 0%, 0);
