@@ -27,12 +27,7 @@ advantages:
 #------ Продукция бренда - 3 экран ------
 brands_products:
     - img: /assets/images/products/product-2/brands/item-3.png
-      img_slider: /assets/images/products/product-2/for-slider/item-3.png
-      subtitle: Кукисы с драже # Подзаголовок
-      describe: Наборы для приготовления вкусных сладостей. Ваш ребенок будет в восторге от проведенного времени и полученных изделий. # Описание под заголовком
-      size_upakovki: 187x137x35 мм # Размер упаковки
-      count_in: 12 шт # Кол-во в гофрокоробе
-      size_gofro: 390х235х150 мм # Размер гофрокороба
+      is_first_slide: true
     - img: /assets/images/products/product-2/brands/item-5.png
       img_slider: /assets/images/products/product-2/for-slider/item-5.png
       subtitle: Шоколадные грибочки # Подзаголовок
