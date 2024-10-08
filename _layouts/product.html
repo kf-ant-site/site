@@ -116,7 +116,7 @@ layout: default
                         {% for item in page.brands_products %}{% assign exclude = item.exlude_slider | default: false %} {% assign is_first = item.is_first_slide | default: false  %}
                         {% if item.img and exclude == false and is_first == false %}
                             <div class="swiper-slide">
-                                <img src="{{ item.img_slider | default: item.img }}" {% if page.uniclass != 'product-4' %}class="section-product__img__product section-product__img__product--1"{% else %}style="max-width: 90%;"{% endif %} alt="продукция бренда">
+                                <img src="{{ item.img_slider | default: item.img }}" {% if page.uniclass != 'product-4' %}class="section-product__img__product section-product__img__product--1"{% else %}style="max-width: 70%;"{% endif %} alt="продукция бренда">
                             </div>
                         {% endif %}{% endfor %}
                     </div>
