@@ -21,8 +21,8 @@ advantages:
       text: Разноообразие вкусов
     - img: /assets/images/icons/holod.svg
       text: Не надо хранить в холодильнике  
-    - img: /assets/images/icons/arom.svg
-      text: Без искусственных красителей и ароматизаторов
+    - img: /assets/images/icons/group.svg
+      text: Хватит на всю компанию
 
 #------ Продукция бренда - 3 экран ------
 brands_products:
