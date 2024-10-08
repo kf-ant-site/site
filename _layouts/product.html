@@ -22,24 +22,30 @@ layout: default
                         {% if page.subtitle %}<h2 class="section-product__subtitle">{{page.subtitle}}</h2>{% endif %}
                         {% if page.describe %}<p class="section-product__desc">{{page.describe}}</p>{% endif %}
                         <div class="section-product__benefit">
+                            {% if page.size_upakovki %}
                             <div class="section-product__benefit__item section-product__benefit__size">
                                 <div class="section-product__benefit__img">
                                     <img src="/assets/images/icons/size.svg" alt="decor">
                                 </div>
                                 <div class="section-product__benefit__text">Размер упаковки:<br><strong>{{page.size_upakovki | default: '---'}}</strong></div>
                             </div>
+                            {% endif %}
+                            {% if page.count_in %}
                             <div class="section-product__benefit__item section-product__benefit__count">
                                 <div class="section-product__benefit__img">
                                     <img src="/assets/images/icons/boxes.svg" alt="decor">
                                 </div>
                                 <div class="section-product__benefit__text">Кол-во в гофрокоробе:<br><strong>{{page.count_in | default: '---'}}</strong></div>
                             </div> 
+                            {% endif %}
+                            {% if page.size_gofro %}
                             <div class="section-product__benefit__item section-product__benefit__all-size">
                                 <div class="section-product__benefit__img">
                                     <img src="/assets/images/icons/box.svg" alt="decor">
                                 </div>
                                 <div class="section-product__benefit__text">Размер гофрокороба:<br><strong>{{page.size_gofro | default: '---'}}</strong></div>
                             </div>
+                            {% endif %}
                         </div>
                     </div>
                     {% for item in page.brands_products %}{% assign exclude = item.exlude_slider | default: false %}{% assign is_first = item.is_first_slide | default: false  %}
@@ -112,6 +118,7 @@ layout: default
                             {% if page.uniclass == 'product-4' %}<img src="/assets/images/products/product-4/brands/item-1.png" alt="decor" class="section-product__img__product--3" style="max-width: 70%;">{% endif %}
                             {% if page.uniclass == 'product-5' %}<img src="/assets/images/products/product-5/animation/product-1.png" alt="decor" class="section-product__img__product section-product__img__product--1">{% endif %}
                             {% if page.uniclass == 'product-6' %}<img src="/assets/images/products/product-6/animation/product-1.png" alt="decor" class="section-product__img__product section-product__img__product--1">{% endif %}
+                            {% if page.uniclass == 'product-7' %}<img src="/assets/images/products/product-7/brands/item-2.png" alt="decor" class="section-product__img__product section-product__img__product--1">{% endif %}
                         </div>
                         {% for item in page.brands_products %}{% assign exclude = item.exlude_slider | default: false %} {% assign is_first = item.is_first_slide | default: false  %}
                         {% if item.img and exclude == false and is_first == false %}

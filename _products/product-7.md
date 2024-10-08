@@ -30,6 +30,8 @@ advantages:
 # exlude_slider - если НЕ нужно показывать в слайдере на первом экране, возможные значения: true - убрать, false - оставить как было (либо можно просто убрать этот параметр)
 # subtitle, describe, size_upakovki, count_in, size_gofro - все настройки как на первом экране
 brands_products:
+    - img: /assets/images/products/product-7/brands/item-2.png
+      is_first_slide: true
     - img: /assets/images/products/product-7/brands/item-4.png
       subtitle: Конфеты «Belccini» # Подзаголовок
       describe: Нежное пралине с дробленым арахисом в глазури. # Описание под заголовком
