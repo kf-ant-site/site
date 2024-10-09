@@ -5,7 +5,7 @@ many_brands: true
 
 #------ Карточка товара ------
 title: Подарочные конфеты # Заголовок, который будет везде отображаться
-tumbnail: /assets/images/products/product-9/brands/item-1.png # Изображение для карточки товара
+tumbnail: /assets/images/products/tumb-product-9.png # Изображение для карточки товара
 
 #------ Отдельная страница товара - 1 экран ------
 title_section: Подарочные конфеты # Название продукта на странице
