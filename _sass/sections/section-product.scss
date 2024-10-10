@@ -817,7 +817,7 @@
     background-color: #E3C09F;
     background-image: url('../images/products/back-product-7-section.svg'), linear-gradient(0deg, #E3C09F, #E3C09F), radial-gradient(73.18% 110.16% at 60.1% 55.6%, #F3D1B2 0%, #F3D1B2 38.5%, rgba(197, 144, 96, 0) 100%);
     background-position: 50% 20%, center center;
-    background-size: (56000%/320) 100% 100%, 100% 100%;
+    background-size: (56000%/320) auto, 100% 100%;
     @include minBreakpointLG {
         background-position: 84% 100%, center center;
         background-size: (164000%/1920) auto, 100% 100%;
@@ -900,9 +900,9 @@
     background-color: #E3C09F;
     background-image: url('../images/products/back-product-8-section.svg'), linear-gradient(0deg, #E3C09F, #E3C09F), radial-gradient(73.18% 110.16% at 60.1% 55.6%, #F3D1B2 0%, #F3D1B2 38.5%, rgba(197, 144, 96, 0) 100%);
     background-position: 50% 20%, center center;
-    background-size: (56000%/320) 100% 100%, 100% 100%;
+    background-size: (56000%/320) auto, 100% 100%;
     @include minBreakpointLG {
-        background-position: 84% 100%, center center;
+        background-position: 104% -17%, center center;
         background-size: (147000%/1920) auto, 100% 100%;
     }
 
@@ -972,7 +972,7 @@
     background-position: 50% 20%, center center;
     background-size: (56000%/320) 100% 100%, 100% 100%;
     @include minBreakpointLG {
-        background-position: 84% 100%, center center;
+        background-position: 100% 30%, center center;
         background-size: (159000%/1920) auto, 100% 100%;
     }
 
