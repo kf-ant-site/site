@@ -814,8 +814,80 @@
 }
 
 .section-product.section-product-7 {
+    background-color: #E3C09F;
+    background-image: url('../images/products/back-product-7-section.svg'), linear-gradient(0deg, #E3C09F, #E3C09F), radial-gradient(73.18% 110.16% at 60.1% 55.6%, #F3D1B2 0%, #F3D1B2 38.5%, rgba(197, 144, 96, 0) 100%);
+    background-position: 50% 20%, center center;
+    background-size: (56000%/320) 100% 100%, 100% 100%;
+    @include minBreakpointLG {
+        background-position: 84% 100%, center center;
+        background-size: (164000%/1920) auto, 100% 100%;
+    }
+
+    .section-product__img__decor--1 {
+        top: (33000%/743);
+        left: (69400%/810);
+        width: (9100%/810);
+        transform: scale(0.75) translate(-40%, 50%);
+        transition-delay: .2s;
+    }
+    .section-product__img__decor--2 {
+        top: (14300%/743);
+        left: (17400%/810);
+        width: (8000%/810);
+        transform: scale(0.75) translate(-65%, 35%);
+        transition-delay: .4s;
+    }
+    .section-product__img__decor--3 {
+        top: (3900%/743);
+        left: (14300%/810);
+        width: (10800%/810);
+        transform: scale(0.75) translate(65%, 55%);
+        transition-delay: .3s;
+    }
+    .section-product__img__decor--4 {
+        top: (56100%/743);
+        left: (32900%/810);
+        width: (8600%/810);
+        transform: scale(0.75) translate(80%, 10%);
+        transition-delay: .2s;
+    }
+    .section-product__img__decor--5 {
+        top: (33000%/743);
+        left: (69400%/810);
+        width: (9100%/810);
+        transform: scale(0.75) translate(-45%, -45%);
+    }
+    .section-product__img__decor--6 {
+        top: (2100%/743);
+        left: (27900%/810);
+        width: (10300%/810);
+        transform: scale(0.75) translate(-75%, 45%);
+        transition-delay: .3s;
+    }
+    .section-product__img__decor--7 {
+        top: (52500%/743);
+        left: (35000%/810);
+        width: (10800%/810);
+        transform: scale(0.75) translate(75%, -25%);
+        transition-delay: .1s;
+    }
+    .section-product__img__decor--8 {
+        top: (46700%/743);
+        left: (53500%/810);
+        width: (15000%/810);
+        transform: scale(0.75) translate(-5%, -85%);
+    }
     .section-product__img__product--1 {
-        // max-width: 90%;
+        top: (12300%/743);
+        left: (7500%/810);
+        width: (62100%/810);
+        transform: scale(0.75) translate(-5%, -85%);
+    }
+    .section-product__img__cloud--1 {
+        top: (8800%/743);
+        left: (-8900%/810);
+        width: (108300%/810);
+        animation: section-cloud-1 30s linear 0s infinite alternate both;
     }
 }
 
