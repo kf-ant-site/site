@@ -898,6 +898,13 @@
 
 .section-product.section-product-8 {
     background-color: #E3C09F;
+    background-image: url('../images/products/back-product-8-section.svg'), linear-gradient(0deg, #E3C09F, #E3C09F), radial-gradient(73.18% 110.16% at 60.1% 55.6%, #F3D1B2 0%, #F3D1B2 38.5%, rgba(197, 144, 96, 0) 100%);
+    background-position: 50% 20%, center center;
+    background-size: (56000%/320) 100% 100%, 100% 100%;
+    @include minBreakpointLG {
+        background-position: 84% 100%, center center;
+        background-size: (147000%/1920) auto, 100% 100%;
+    }
 
     .section-product__img__product--1 {
         max-width: 90%;
@@ -961,6 +968,13 @@
 
 .section-product.section-product-9 {
     background-color: #E9C6AB;
+    background-image: url('../images/products/back-product-9-section.svg'), radial-gradient(39.63% 71.66% at 58.52% 50.85%, #EEDCCD 0%, rgba(233, 198, 171, 0) 100%);
+    background-position: 50% 20%, center center;
+    background-size: (56000%/320) 100% 100%, 100% 100%;
+    @include minBreakpointLG {
+        background-position: 84% 100%, center center;
+        background-size: (159000%/1920) auto, 100% 100%;
+    }
 
     .section-product__img__product--1 {
         max-width: 90%;
@@ -1033,6 +1047,13 @@
 
 .section-product.section-product-10 {
     background-color: #E9C6AB;
+    background-image: url('../images/products/back-product-10-section.svg'), radial-gradient(39.63% 71.66% at 58.52% 50.85%, #EEDCCD 0%, rgba(233, 198, 171, 0) 100%);
+    background-position: 50% 20%, center center;
+    background-size: (56000%/320) 100% 100%, 100% 100%;
+    @include minBreakpointLG {
+        background-position: 84% 100%, center center;
+        background-size: (131400%/1920) auto, 100% 100%;
+    }
 
     .section-product__img__product--1 {
         max-width: 90%;

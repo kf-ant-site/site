@@ -1,0 +1,28 @@
+<svg width="1590" height="1485" viewBox="0 0 1590 1485" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_31_1749" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="-511" width="1945" height="1996">
+<g clip-path="url(#clip0_31_1749)">
+<path d="M53.0987 1485L0 1454.31L557.935 487L0 -480.313L53.0987 -511L628.753 487L53.0987 1485Z" fill="black"/>
+<path d="M199.366 1485L146.268 1454.31L704.202 487L146.268 -480.313L199.366 -511L774.99 487L199.366 1485Z" fill="black"/>
+<path d="M345.601 1485L292.502 1454.31L850.437 487L292.502 -480.313L345.601 -511L921.255 487L345.601 1485Z" fill="black"/>
+<path d="M491.868 1485L438.77 1454.31L996.704 487L438.77 -480.313L491.868 -511L1067.49 487L491.868 1485Z" fill="black"/>
+<path d="M638.105 1485L585.006 1454.31L1142.94 487L585.006 -480.313L638.105 -511L1213.76 487L638.105 1485Z" fill="black"/>
+<path d="M784.372 1485L731.242 1454.31L1289.21 487L731.242 -480.313L784.372 -511L1360 487L784.372 1485Z" fill="black"/>
+<path d="M930.606 1485L877.508 1454.31L1435.44 487L877.508 -480.313L930.606 -511L1506.26 487L930.606 1485Z" fill="black"/>
+<path d="M1076.87 1485L1023.78 1454.31L1581.71 487L1023.78 -480.313L1076.87 -511L1652.5 487L1076.87 1485Z" fill="black"/>
+<path d="M1223.11 1485L1170.01 1454.31L1727.94 487L1170.01 -480.313L1223.11 -511L1798.76 487L1223.11 1485Z" fill="black"/>
+<path d="M1369.38 1485L1316.28 1454.31L1874.21 487L1316.28 -480.313L1369.38 -511L1945 487L1369.38 1485Z" fill="black"/>
+</g>
+</mask>
+<g mask="url(#mask0_31_1749)">
+<path d="M-331 50.0176C-331 22.4034 -308.614 0.0175781 -281 0.0175781L1539.64 0.0175781C1567.25 0.0175781 1589.64 22.4033 1589.64 50.0176V948.956C1589.64 976.57 1567.25 998.956 1539.64 998.956H-281C-308.614 998.956 -331 976.57 -331 948.956V499.487V50.0176Z" fill="url(#paint0_radial_31_1749)"/>
+</g>
+<defs>
+<radialGradient id="paint0_radial_31_1749" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(793 508) rotate(-133.244) scale(484.596 1044.91)">
+<stop stop-color="#EEDCCD"/>
+<stop offset="1" stop-color="#E9C6AB" stop-opacity="0"/>
+</radialGradient>
+<clipPath id="clip0_31_1749">
+<rect width="1945" height="1996" fill="white" transform="translate(0 -511)"/>
+</clipPath>
+</defs>
+</svg>
