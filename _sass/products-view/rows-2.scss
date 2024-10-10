@@ -168,8 +168,9 @@
     background: #f3d1b2;
   }
   &__item.product-7 &__img img {
-    left: 3%;
     max-width: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
   &__item.product-7 &__back {
     background: url("../images/products/back-product-7.svg") no-repeat right
@@ -181,7 +182,8 @@
     background: #f3d1b2;
   }
   &__item.product-8 &__img img {
-    left: 3%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
   &__item.product-8 &__back {
     background: url("../images/products/back-product-8.svg") no-repeat right
