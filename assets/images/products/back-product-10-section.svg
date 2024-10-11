@@ -1,4 +1,4 @@
-<svg width="1314" height="1258" viewBox="0 0 1314 1258" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" width="1314" height="1258" viewBox="0 0 1314 1258" fill="none">
 <mask id="mask0_31_1766" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="-145" width="1476" height="1403">
 <path d="M738 -62.1067L887.845 398.814L893.599 416.515H1397.12L1004.83 701.378L989.762 712.316L995.516 730.016L1145.36 1190.94L753.07 906.075L738 895.137L722.93 906.075L330.638 1190.94L480.484 730.016L486.238 712.316L471.167 701.378L78.876 416.515H582.401L588.155 398.814L738 -62.1067ZM738 -145L563.781 390.899H0L456.11 722.101L281.89 1258L738 926.798L1194.11 1258L1019.89 722.101L1476 390.899H912.219L738 -145Z" fill="black"/>
 <path d="M738 101.899L851.029 449.752L856.78 467.454H1241.16L945.253 682.439L930.19 693.378L935.941 711.08L1048.97 1058.93L753.064 843.947L738 833.008L722.936 843.947L427.03 1058.93L540.059 711.08L545.81 693.378L530.747 682.439L234.841 467.454H619.22L624.971 449.752L738 101.899ZM738 19L600.608 441.836H156L515.696 703.164L378.304 1126L738 864.672L1097.7 1126L960.304 703.164L1320 441.836H875.392L738 19Z" fill="black"/>
@@ -10,7 +10,7 @@
 <rect x="-606" width="1920" height="994" fill="url(#paint0_radial_31_1766)"/>
 </g>
 <defs>
-<radialGradient id="paint0_radial_31_1766" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(918.87 497) rotate(-159.251) scale(604.048 1444.02)">
+<radialGradient id="paint0_radial_31_1766" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(918.869 497) rotate(-154.35) scale(458.559 1096.22)">
 <stop stop-color="#EEDCCD"/>
 <stop offset="0.525" stop-color="#EACAB0" stop-opacity="0"/>
 </radialGradient>

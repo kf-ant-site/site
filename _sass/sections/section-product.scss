@@ -902,7 +902,7 @@
     background-position: 50% 20%, center center;
     background-size: (56000%/320) auto, 100% 100%;
     @include minBreakpointLG {
-        background-position: 104% -17%, center center;
+        background-position: 0% 0%, center center;
         background-size: (147000%/1920) auto, 100% 100%;
     }
 
