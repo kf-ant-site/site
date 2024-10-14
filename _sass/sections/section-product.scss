@@ -1029,8 +1029,8 @@
         transition-delay: .4s;
     }
     .section-product__img__decor--3 {
-        top: (52100%/743);
-        left: (36600%/810);
+        top: 85%;
+        left: 46%;
         width: (9700%/810);
         transform: scale(0.75) translate(65%, 55%);
         transition-delay: .3s;
@@ -1062,11 +1062,18 @@
         transform: scale(0.75) translate(-35%, 45%);
         transition-delay: .2s;
     }
+    .section-product__img__decor--8 {
+        top: 10%;
+        left: 10%;
+        width: (24000%/810);
+        transform: scale(0.75) translate(-35%, 45%);
+        transition-delay: .2s;
+    }
 
     .section-product__img__product--2 {
         top: (-3000%/743);
-        left: (500%/810);
-        width: (71000%/810);
+        left: (00%/810);
+        width: (72000%/810);
         transform: scale(0.75) translate(0%, 0%);
     }
 
