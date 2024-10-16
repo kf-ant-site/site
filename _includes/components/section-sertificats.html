@@ -1,0 +1,16 @@
+<section>
+    <div class="container">
+        <h1 class="h1 section__title">Наши награды</h1>
+        <div class="section-sertificats">
+            <div class="section-sertificats__wrapper">
+                {% for item in site.data.sertificats_all %}
+                    {% if item.img %}
+                        <div class="section-sertificats__item">
+                            <img src="{{ item.img }}" alt="сертификат">
+                        </div>
+                    {% endif %} 
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
