@@ -1,5 +1,6 @@
 ---
 #site_title: "Hello world"
+color_header: 'black'
 ---
 
 <!-- Все сертификаты -->

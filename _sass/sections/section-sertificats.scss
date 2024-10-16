@@ -3,8 +3,21 @@
         display: flex;
         align-items: center;
         flex-wrap: wrap;
+        margin: -2.5%;
     }
     &__item {
-        flex: 0 0 25%;
+        flex: 0 0;
+        width: 45%;
+        margin: 2.5%;
+        box-shadow: 4px 4px 12px 5px rgba(0, 0, 0, 0.1);
+        @include minBreakpointMD {
+            width: 28.333%;
+        }
+        @include minBreakpointXL {
+            width: 20%;
+        }
+        img {
+            max-width: 100%;
+        }
     }
 }
