@@ -131,6 +131,13 @@
             }
         }
     }
+    &--dark &__nav a {
+        @include minBreakpointLG {
+            @include reset-a((
+                color: $color-text,
+            ));
+        }
+    }
     &__btn {
         display: none;
         @include minBreakpointLG {
