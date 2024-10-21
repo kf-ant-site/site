@@ -130,7 +130,7 @@ function productPage() {
             }
         }
     })
-    let brandsProduct = new Swiper('.swiper__brands-product', {
+    new Swiper('.swiper__brands-product--product-1, .swiper__brands-product--product-2, .swiper__brands-product--product-3, .swiper__brands-product--product-4, .swiper__brands-product--product-5, .swiper__brands-product--product-6, .swiper__brands-product--product-7, .swiper__brands-product--product-8', {
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
@@ -156,6 +156,36 @@ function productPage() {
                 slidesPerView: 3,
                 grid: { 
                     rows : 2
+                }
+            }
+        }
+    });
+    new Swiper('.swiper__brands-product--product-9, .swiper__brands-product--product-10', {
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        slidesPerView: 1,
+        grid: {
+            fill: 'row',
+            rows: 6,
+        },
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+            576: {
+                slidesPerView: 2,
+                grid: { 
+                    rows : 6
+                }
+            },
+            992: {
+                slidesPerView: 3,
+                grid: { 
+                    rows : 6
                 }
             }
         }

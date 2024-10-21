@@ -158,7 +158,7 @@ layout: default
 <section class="section--half-height section--accent section-brands-{{page.uniclass}}">
     <div class="container">
         {% if page.many_brands == true %}<h2 class="h1 section__title text-center-sm">Продукция брендов</h2>{% else %}<h2 class="h1 section__title text-center-sm">Продукция бренда</h2>{% endif %}
-        <div class="swiper swiper__brands-product">
+        <div class="swiper swiper__brands-product swiper__brands-product--{{page.uniclass}}">
             <div class="swiper-wrapper">
                 {% for item in page.brands_products %}{% if item.img %}
                     {% assign exclude = item.exlude_slider | default: false %} {% assign is_first = item.is_first_slide | default: false  %}
