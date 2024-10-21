@@ -160,36 +160,6 @@ function productPage() {
             }
         }
     });
-    new Swiper('.swiper__brands-product--product-9, .swiper__brands-product--product-10', {
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-        slidesPerView: 1,
-        grid: {
-            fill: 'row',
-            rows: 6,
-        },
-        spaceBetween: 30,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-        breakpoints: {
-            576: {
-                slidesPerView: 2,
-                grid: { 
-                    rows : 6
-                }
-            },
-            992: {
-                slidesPerView: 3,
-                grid: { 
-                    rows : 6
-                }
-            }
-        }
-    });
 
     if(imges.slides) {
         let length = 0;
