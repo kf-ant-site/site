@@ -227,6 +227,10 @@
 .swiper__brands-product--product-9, .swiper__brands-product--product-10 {
     .swiper-wrapper {
         width: calc(100% + 30px) !important;
+        flex-wrap: wrap !important;
+    }
+    .swiper-nav {
+        display: none !important;
     }
     .swiper-slide {
         width: calc(100% - 30px) !important;
@@ -234,12 +238,12 @@
     }
     @include minBreakpointSM {
         .swiper-slide {
-            width: calc(50% - 60px) !important;
+            width: calc(50% - 30px) !important;
         }
     }
     @include minBreakpointLG {
         .swiper-slide {
-            width: calc(33.333% - 90px) !important;
+            width: calc(33.333% - 30px) !important;
         }
     }
 }
